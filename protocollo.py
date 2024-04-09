@@ -12,7 +12,6 @@ import json
 
 logger = logging.getLogger(__name__)
 
-
 class CommandError(Exception): pass
 class Disconnect(Exception): pass
 
